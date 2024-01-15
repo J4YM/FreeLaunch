@@ -1,0 +1,142 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+ * {
+   padding: 0;
+   margin: 0;
+   text-decoration: none;
+ }
+
+ html,
+ body {
+   height: 100%;
+   width: 100%;
+ }
+
+ html {
+   scroll-behavior: smooth;
+   height: 100%;
+   width: 100%;
+
+ }
+
+ /* first div*/
+ .abt {
+   position: absolute;
+   top: 170px;
+   height: 850px;
+   width: 100%;
+   background-color: #2f2f2f;
+   /*try, pag may pic na pede na re tanggalin*/
+ }
+
+ .title {
+   margin-top: 20px;
+   font-family: 'Inter', sans-serif;
+   font-weight: 700;
+   font-size: 2rem;
+   text-align: center;
+   color: #8454b0;
+ }
+
+ .container {
+   position: center;
+   width: 100%;
+   background: #fff;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   border-radius: 10px;
+
+ }
+
+ .accordion {
+   position: center;
+   width: 100px;
+   margin-left: 1px;
+ }
+
+ .content-accordion {
+   margin-top: 35px;
+   margin-left: 15%;
+
+ }
+
+ .question-answer {
+   width: 100%;
+   border-bottom: 1px solid #e8e8e8;
+ }
+
+
+ .question {
+   display: inherit;
+   justify-content: space-between;
+ }
+
+ .accordion-img {
+   position: inherit;
+ }
+
+ .title-question {
+   margin: 1.4rem 0rem;
+   font-size: 1.2rem;
+   font-weight: 500;
+   color: #94279c;
+   font-family: 'Inter', sans-serif;
+ }
+
+ .question-btn {
+   font-size: 1.5rem;
+   background: transparent;
+   border-color: transparent;
+   cursor: pointer;
+ }
+
+ .up-icon {
+   display: none;
+ }
+
+ .answer {
+   font-size: 16px;
+   line-height: 1.8;
+   display: none;
+   font-family: 'Inter', sans-serif;
+ }
+
+ .show-text .answer {
+   display: block;
+ }
+
+ .show-text .up-icon {
+   display: inline;
+ }
+
+ .show-text .down-icon {
+   display: none;
+ }
+
+ @media screen and (min-width: 992px) {
+   .accordion {
+     width: 920px;
+     height: 0;
+     display: flex;
+   }
+
+   .accordion-img {
+     display: flex;
+     position: relative;
+     width: 800px;
+     top: 80px;
+   }
+
+   .question-answer {
+     width: 380px;
+   }
+
+   .content-accordion {
+     position: center;
+     margin-top: 85px;
+   }
+
+
+
+
+   /*footer*/

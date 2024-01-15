@@ -1,55 +1,172 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <link rel="shortcut icon" href="assets/trikelogo.jpg" type="image/gif" />
-  <title>FreeLaunch</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Launch </title>
+  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+  <link rel="shortcut icon" href="IMAGES/logo.png" type="image/gif" />
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
-  <link rel="stylesheet" href="sweetalert2.min.css">
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <script src="script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
-  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+  <!--tab icon-->
 </head>
+
 <body>
-  <script src="script.js"></script>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex">
     <a class="navbar-brand" href="#">FreeLaunch</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+      aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-center" id="navbarColor01">
       <ul class="navbar-nav justify-content-center">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Offers</a>
+          <a class="nav-link" href="catalog.html">Offers</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="about.html">About</a>
         </li>
       </ul>
     </div>
-     <ul class="nav justify-content-end"> <!--search -->
+    <ul class="nav justify-content-end">
+      <!--search -->
       <form class="d-flex justify-content-end" data-dashlane-rid="43cf396bffeef0d1" data-form-type="">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search for any service" aria-label="Search" data-dashlane-rid="13cfb5005f87340f" data-form-type="">
-      <button class="btn btn-outline-info my-2 my-sm-0" type="submit" data-dashlane-label="true" data-dashlane-rid="0189fdb77152f50d" data-form-type=""><i class="bi bi-search"></i></button>
+        <input class="form-control mr-sm-2" type="search" placeholder="Search for any service" aria-label="Search"
+          data-dashlane-rid="13cfb5005f87340f" data-form-type="">
+        <button class="btn btn-outline-info my-2 my-sm-0" type="submit" data-dashlane-label="true"
+          data-dashlane-rid="0189fdb77152f50d" data-form-type=""><i class="bi bi-search"></i></button>
       </form>
-      </ul>
+    </ul>
   </nav>
 
-  <div>
-    Explore limitless possibilities on our freelancing website. Connect with global talent or showcase your skills to a diverse clientele. Our platform fosters a dynamic marketplace, offering flexibility, secure transactions, and seamless communication. Freelancers can bid on projects, set rates, and build their portfolios, while clients access a rich pool of expertise. Join our community to experience the freedom of the gig economy, where opportunities abound and collaborations flourish. Thrive in the world of freelancing, where talent knows no boundaries.
-  </div>
 
+  <div class="container">
+    <!-- <h1 class="title">
+      Frequently Asked Questions
+    </h1> -->
+    <main class="accordion">
+      <div class="faq-img">
+        <img src="Images/about.png" alt="" class="accordion-img">
+      </div>
+      <div class="content-accordion">
+        <div class="question-answer">
+          <div class="question">
+            <h3 class="title-question" color:red;>
+              What is Free Launch and how does it differ from other freelancing websites?
+            </h3>
+            <button class="question-btn">
+              <span class="up-icon">
+                <i class="fas fa-chevron-up"></i>
+              </span>
+              <span class="down-icon">
+                <i class="fas fa-chevron-down"></i>
+              </span>
+            </button>
+          </div>
+          <div class="answer">
+            <p> Free Launch is a freelancing website that connects clients with freelancers for various tasks and
+              projects. Unlike other platforms, Free Launch emphasizes a commitment to providing a completely free
+              environment for both clients and freelancers, with no fees or charges for using the platform.</p>
+          </div>
+        </div>
+        <div class="question-answer">
+          <div class="question">
+            <h3 class="title-question">
+              How does Free Launch sustain itself without charging fees?
+            </h3>
+            <button class="question-btn">
+              <span class="up-icon">
+                <i class="fas fa-chevron-up"></i>
+              </span>
+              <span class="down-icon">
+                <i class="fas fa-chevron-down"></i>
+              </span>
+            </button>
+          </div>
+          <div class="answer">
+            <p>Free Launch operates on a donation-based model. Users have the option to make voluntary contributions to
+              support the platform. These donations help cover operational costs and keep the platform free for all
+              users.
+            </p>
+          </div>
+        </div>
+        <div class="question-answer">
+          <div class="question">
+            <h3 class="title-question">
+              What types of freelance services can be found on Free Launch?
+            </h3>
+            <button class="question-btn">
+              <span class="up-icon">
+                <i class="fas fa-chevron-up"></i>
+              </span>
+              <span class="down-icon">
+                <i class="fas fa-chevron-down"></i>
+              </span>
+            </button>
+          </div>
+          <div class="answer">
+            <p> Free Launch accommodates a wide range of freelance services, including but not limited to graphic
+              design, writing, programming, marketing, and virtual assistance. The platform aims to be inclusive,
+              allowing freelancers from various fields to offer their skills. </p>
+          </div>
+        </div>
+        <div class="question-answer">
+          <div class="question">
+            <h3 class="title-question">
+              How does Free Launch ensure quality and reliability in freelancers?
+
+            </h3>
+            <button class="question-btn">
+              <span class="up-icon">
+                <i class="fas fa-chevron-up"></i>
+              </span>
+              <span class="down-icon">
+                <i class="fas fa-chevron-down"></i>
+              </span>
+            </button>
+          </div>
+          <div class="answer">
+            <p> Free Launch incorporates a rating and review system. Clients can provide feedback on freelancers based
+              on their experience, helping build a community-driven reputation system. This system assists clients in
+              making informed decisions when choosing freelancers for their projects. </p>
+          </div>
+        </div>
+        <div class="question-answer">
+          <div class="question">
+            <h3 class="title-question">
+              Are there any restrictions on who can join Free Launch?
+            </h3>
+            <button class="question-btn">
+              <span class="up-icon">
+                <i class="fas fa-chevron-up"></i>
+              </span>
+              <span class="down-icon">
+                <i class="fas fa-chevron-down"></i>
+              </span>
+            </button>
+          </div>
+          <div class="answer">
+            <p>Free Launch is open to freelancers and clients worldwide, promoting inclusivity. There are no specific
+              restrictions on geographical location or professional background. Anyone with skills to offer or tasks to
+              be completed is welcome to join the platform and participate in the freelancing community..</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="about.js"></script>
+
+  <!--footer-->
 
 </body>
 

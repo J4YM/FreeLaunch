@@ -26,9 +26,3 @@
   flex-wrap: wrap;
   padding-bottom: 3%;
 }
-
-img {
-  height: 200px;
-  width: 200px;
-  border-radius: 15px 15px 0px 0px;
-}
