@@ -45,3 +45,18 @@ function signup() {
     } 
   })
 }
+
+function noresults() {
+  Swal.fire({
+    icon: "error",
+    title: "Oops...",
+    text: "No Results Found!",
+    confirmButtonText: "Show Catalog"
+    }).then((result) => {
+      if (result.isConfirmed) {
+        window.location.href = "catalog.html";
+      }
+    });
+
+  
+}
