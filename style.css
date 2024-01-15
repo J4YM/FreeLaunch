@@ -71,3 +71,7 @@ html {
 img {
   border-radius: 15px 15px 0px 0px;
 }
+
+a {
+  text-decoration: none;
+}
